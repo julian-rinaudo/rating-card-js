@@ -4,13 +4,14 @@ const enviar = document.querySelector("#enviar");
 const gracias = document.querySelector("#gracias")
 const puntajes = [1, 2, 3, 4, 5];
 
+
 const imprimirNumeros = () => {
     let plantilla;
     puntajes.forEach(num => {
          plantilla = `<button class="ranking">${num}</button>`;
         calificaciones.innerHTML += plantilla;
     });
-    return plantilla
+    
 
 }
 const btnNum = () => {
